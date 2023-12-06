@@ -1,0 +1,15 @@
+Khi bị conflict code là khi xảy ra xung đột giữa 2 phiên bản của 1 tập tin hoặc 1 số tập tin.
+Khi gặp thì nên giải quyết như sau:
+- Xác định xem conflict xảy ra ở đâu (từ những ai để họp và nói chuyện để cùng giải quyết conflict)
+- Mở file gây conflict
+- Thay đổi thủ công cái nội dung gây conflict
+- Xác định xem phần nào nên giữ lại phần nào không
+- git add và commit lại
+
+
+Để hạn chế conflict:
+- Thường xuyên git pull để cập nhật local repo với remote repo
+- Sử dụng git branch để chia thành các nhánh riêng biệt
+- Phân chia dự án thành các file nhỏ nhất có thể để giảm khả năng
+- Giao tiếp với các thành viên trong nhóm để tránh conflict
+
