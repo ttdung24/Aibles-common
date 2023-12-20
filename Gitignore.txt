@@ -1,0 +1,18 @@
+Tìm hiểu về gitignore
+WHY ?
+- File .gitignore là  quan trọng để tránh theo dõi những file và folder không mong muốn trong quá trình quản lý source code.
+- Những file và folder không muốn đưa lên git sẽ được thêm vào trong file .gitignore để bỏ qua trong quá trình commit.
+WHAT ?
+- File .gitignore là một file cấu hình trong Git để chỉ định các file và Folder mà Git sẽ bỏ qua khi theo dõi thay đổi.
+WHO ?
+- Dev sử dụng git
+HOW ?
+- Người tạo hoặc cập nhật tệp .gitignore liệt kê các quy tắc phù hợp với cú pháp cụ thể để chỉ định file và folder nào sẽ bị bỏ qua.
+- Ví dụ:
+    + .txt: bỏ qua tất cả các file có đuôi txt
+    + /node_modules/: bỏ qua folder node_modules
+    + **/*.js: bỏ qua tất cả các file có đuôi js trong bất kì folder nào
+WHERE ?
+- .gitignore được đặt trong thư mục gốc của dự án Git. Mỗi dự án có thể có một hoặc nhiều tệp .gitignore.
+WHEN ?
+- Tạo hoặc cập nhật tệp .gitignore khi dev thêm các folder hoặc file mới vào dự án và muốn Git bỏ qua chúng.
